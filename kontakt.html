@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="rhinoweb.rs">
+    <meta name="description" content="Autoprevoznik Bulutic je kompanija koja se specijalizuje za niskogradnju, izgradnju puteva, iskopov, utovar, prevoz rasutog tereta i rusenje. Osnovana je sa ciljem da pruži kvalitetne i pouzdane usluge svojim klijentima u oblasti građevinske industrije.">
+    <meta name="keywords" content="Autoprevoznik, Bulutic, Autoprevoznik Bulutic, niskogradnja, izgradnja puteva, prevoz, iskop, utvar, rusenje">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="css/resetstyle.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/fav.png" type="image/x-icon">
+    <title>Autoprevoznik Bulutić</title>
+</head>
+<body>
+    <div class="info">
+        <div class="wrapper">
+            <h5><i class="fa-solid fa-location-dot"></i> Neresnica, 12242 Kučevo</h5>
+            <h5><i class="fa-solid fa-phone"></i> +381-64-251-7956</h5>
+            <h5><i class="fa-solid fa-envelope"></i> buluticdragan@gmail.com</h5>
+        </div>
+    </div>
+    <div class="header">
+        <div class="wrapper">
+            <a href="index.html" class="logo">Autoprevoznik<br><span>Bulutić</span></a>
+            <div class="header-links">
+                <a href="index.html">Početna</a>
+                <a href="index.html#usluge">Usluge</a>
+                <a href="galerija.html">Galerija</a>
+                <a href="kontakt.html">Kontakt</a>
+            </div>
+            <div id="open">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </div>
+    <div class="phone-menu">
+        <div id="close">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <a href="index.html" onclick="popupClose();">Početna</a>
+        <a href="index.html#usluge" onclick="popupClose();">Usluge</a>
+        <a href="galerija.html" onclick="popupClose();">Galerija</a>
+        <a href="kontakt.html" onclick="popupClose();">Kontakt</a>
+    </div>
+    <div class="galerija-slika kontakt-slika">
+        <div class="black"></div>
+        <h3><i class="fa-solid fa-envelope"></i> Kontakt <i class="fa-solid fa-envelope"></i></h3>
+    </div>
+    <div class="kontakt-main">
+        <div class="wrapper">
+            <form action="kontakt.php" method="post" class="kontakt-form">
+                <div>
+                    <h4><i class="fa-solid fa-user"></i> Ime</h4>
+                    <input type="text" placeholder="Unesite Vaše ime" name="yourname" required>
+                </div>
+                <div>
+                    <h4><i class="fa-solid fa-user"></i> Prezime</h4>
+                    <input type="text" placeholder="Unesite Vaše prezime" name="yoursurname" required>
+                </div>
+                <div>
+                    <h4><i class="fa-solid fa-envelope"></i> Email</h4>
+                    <input type="email" placeholder="Unesite Vaš email" name="youremail" required>
+                </div>
+                <div>
+                    <h4><i class="fa-solid fa-phone"></i> Broj telefona</h4>
+                    <input type="text" placeholder="Unesite Vaš broj telefona" name="yourphone" required>
+                </div>
+                <div>
+                    <h4><i class="fa-solid fa-message"></i> Poruka</h4>
+                    <textarea cols="30" rows="10" placeholder="Opišite nam šta Vam je potrebno" name="yourmessage" required></textarea>
+                </div>
+                <button type="submit" name="submit"><i class="fa-solid fa-paper-plane"></i> Pošalji poruku</button>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <a href="index.html" class="logo">Autoprevoznik <span>Bulutić</span></a>
+        <div class="footer-links">
+            <a href="index.html">Početna</a>
+            <a href="index.html#usluge">Usluge</a>
+            <a href="galerija.html">Galerija</a>
+            <a href="kontakt.html">Kontakt</a>
+        </div>
+        <div class="line"></div>
+        <h3>© Copyright 2023 Autoprevoznik Bulutić</h3>
+        <h4>Developed by: <a href="https://rhinoweb.rs/" target="_blank">rhinoweb.rs</a></h4>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+<script src="js/all.min.js"></script>
+<script src="js/lightbox.min.js"></script>
+<script src="js/popup.js"></script>
+</html>
